@@ -1,0 +1,18 @@
+{
+  "student": {
+    "goal": "AQA Python -> Java, доход x2",
+    "hours_per_week": 9
+  },
+  "current": { "month": 1, "week": 1, "topic": "Python: типы, коллекции" },
+  "topics": [
+    {
+      "id": "py-types",
+      "title": "Типы данных и переменные",
+      "learned": "2026-11-22",
+      "step": 0,
+      "lapses": 0
+    }
+  ],
+  "tasks": [],
+  "weak_spots": []
+}
