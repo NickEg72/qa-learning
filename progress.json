@@ -5,22 +5,48 @@
     "goal": "AQA Python -> Java, доход x2",
     "start_date": "2026-11-24",
     "deadline": "2027-09-01",
-    "hours_per_week": 9,
-    "schedule": { "tue": 60, "wed": 60, "thu": 60, "sat": 180, "sun": 120 }
+    "hours_per_week": 8,
+    "schedule": {
+      "tue": 60,
+      "wed": 60,
+      "thu": 60,
+      "sat": 180,
+      "sun": 120
+    }
   },
   "current": {
-    "month": 1, "week": 1, "day": 0,
-    "topic": "Подготовка окружения и первый коммит"
-  },
+  "month": 1, "week": 1, "day": 1,
+  "topic": "Python: типы данных и переменные"
+},
   "topics": [
-    { "id": "py-types", "title": "Типы данных и переменные",
-      "learned": null, "step": 0, "lapses": 0 }
+    {
+      "id": "py-types",
+      "title": "Типы данных и переменные",
+      "learned": null,
+      "step": 0,
+      "lapses": 0
+    }
   ],
   "tasks": [
-    { "id": "T-000", "issued": "2026-11-22",
-      "title": "Окружение, Git, структура репозитория",
-      "status": "in_progress", "score": 6, "attempts": 3 }
+  { "id": "T-000", "issued": "2026-11-22",
+    "title": "Окружение, Git, структура репозитория",
+    "status": "passed", "score": 10, "attempts": 4,
+    "closed": "2026-11-22" },
+  { "id": "T-001", "issued": "2026-11-24",
+    "title": "Python: типы данных, переменные, f-строки",
+    "status": "assigned", "score": null, "attempts": 0 }
+],
+"stats": { "lessons_done": 0, "tasks_passed": 1, "streak_days": 1, "skipped_days": 0 }
+
   ],
-  "weak_spots": ["расширения файлов в Windows", "сообщения коммитов"],
-  "stats": { "lessons_done": 0, "tasks_passed": 0, "streak_days": 0, "skipped_days": 0 }
+  "weak_spots": [
+    "расширения файлов в Windows",
+    "сообщения коммитов"
+  ],
+  "stats": {
+    "lessons_done": 0,
+    "tasks_passed": 0,
+    "streak_days": 0,
+    "skipped_days": 0
+  }
 }
