@@ -1,30 +1,48 @@
 {
-  "student": {
-    "github": "NickEg72",
-    "repo": "qa-learning",
-    "goal": "AQA Python -> Java, доход x2",
-    "start_date": "2026-11-24",
-    "deadline": "2027-09-01",
-    "hours_per_week": 8,
-    "schedule": { "tue": 60, "wed": 60, "thu": 60, "sat": 180, "sun": 120 }
+  "goal": "Automation Engineer (Python-first, Java-later)",
+  "deadline": "2027-09-01",
+  "started": "2026-11-25",
+  "hours_per_week": 7,
+  "schedule": {
+    "mon": "lesson: theory + start practice",
+    "tue": "practice: finish code",
+    "wed": "practice: edge cases + commit",
+    "thu": "lesson 2: theory + practice",
+    "fri": "practice + anki new cards",
+    "sat": "practice: finish + submit",
+    "sun": "anki review + weekly review (light)"
   },
-  "current": {
-  "month": 1, "week": 1, "day": 1,
-  "topic": "Python: типы данных и переменные"
-},
- 
-  "topics": [
-    { "id": "py-types", "title": "Типы данных и переменные",
-      "learned": null, "step": 0, "lapses": 0 }
+  "total_hours_planned": 280,
+  "level": "beginner+ (manual QA background)",
+  "domain": "banking",
+  "background": {
+    "role": "manual QA (banking)",
+    "leverage": ["test design", "boundary values", "bug reporting", "domain knowledge"],
+    "bank_stack": ["Python", "Java"]
+  },
+  "strategy": {
+    "primary": "Python",
+    "secondary": "Java (basics + JUnit only)",
+    "paths": ["internal transition (primary)", "external 2x income (secondary)"]
+  },
+  "phases": [
+    {"id": 1, "title": "Python basics", "weeks": "1-9", "status": "in_progress"},
+    {"id": 2, "title": "pytest", "weeks": "10-13", "status": "pending"},
+    {"id": 3, "title": "API testing + mock bank", "weeks": "14-22", "status": "pending"},
+    {"id": 4, "title": "Mini-framework + CI", "weeks": "23-26", "status": "pending"},
+    {"id": 5, "title": "Capstone + interview prep", "weeks": "27-30", "status": "pending"},
+    {"id": 6, "title": "Java basics + JUnit", "weeks": "31-38", "status": "pending"}
   ],
+  "excluded": ["UI automation (Selenium/Playwright)", "deep Java", "testing theory"],
   "tasks": [
-  { "id": "T-000", "issued": "2026-11-22",
-    "title": "Окружение, Git, структура репозитория",
-    "status": "passed", "score": 10, "attempts": 4,
-    "closed": "2026-11-22" },
-  { "id": "T-001", "issued": "2026-11-24",
-    "title": "Python: типы данных, переменные, f-строки",
-    "status": "assigned", "score": null, "attempts": 0 }
-],
-"stats": { "lessons_done": 0, "tasks_passed": 1, "streak_days": 1, "skipped_days": 0 }
+    {"id": "t001", "title": "types", "status": "submitted", "review": null},
+    {"id": "t002", "title": "conditions_banking", "status": "assigned", "date": null}
+  ],
+  "anki": {
+    "decks": ["QA::01_Python_basics", "QA::07_Git"],
+    "cards_total": 0,
+    "cards_per_lesson_target": "8-10",
+    "new_per_day": 5,
+    "review_daily_minutes": 15
+  }
 }
